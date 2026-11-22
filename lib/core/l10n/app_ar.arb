@@ -1,0 +1,22 @@
+{
+  "@@locale": "ar",
+  "appTitle": "لوما",
+  "dayOfTotal": "اليوم {current} من {total}",
+  "daysLeft": "{count, plural, zero{لا أيام متبقية} one{يوم واحد متبقٍ} two{يومان متبقيان} few{{count} أيام متبقية} many{{count} يومًا متبقيًا} other{{count} يوم متبقٍ}}",
+  "doneForToday": "انتهيت لهذا اليوم",
+  "explainThisPart": "اشرح هذا الجزء",
+  "settingsTitle": "الإعدادات",
+  "appLanguage": "لغة التطبيق",
+  "languageSystem": "النظام",
+  "languageEnglish": "الإنجليزية",
+  "languageArabic": "العربية",
+  "readerSettings": "إعدادات القراءة",
+  "fontSize": "حجم الخط",
+  "lineHeight": "تباعد الأسطر",
+  "theme": "المظهر",
+  "themeLight": "فاتح",
+  "themeSepia": "ورقي",
+  "themeDark": "داكن",
+  "arabicDigits": "الأرقام العربية",
+  "readerPreviewText": "ضوء الصباح الهادئ ينتشر بهدوء على الصفحة، ويبدأ اليوم ببضعة أسطر مطمئنة."
+}

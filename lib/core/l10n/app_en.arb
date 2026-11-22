@@ -1,0 +1,95 @@
+{
+  "@@locale": "en",
+  "appTitle": "Luma",
+  "@appTitle": {
+    "description": "Application name shown in the app switcher and task switcher"
+  },
+  "dayOfTotal": "Day {current} of {total}",
+  "@dayOfTotal": {
+    "description": "Progress through a reading plan, shown above today's unit",
+    "placeholders": {
+      "current": {
+        "type": "int",
+        "example": "3"
+      },
+      "total": {
+        "type": "int",
+        "example": "30"
+      }
+    }
+  },
+  "daysLeft": "{count, plural, =0{No days left} one{1 day left} other{{count} days left}}",
+  "@daysLeft": {
+    "description": "Remaining days in the reading plan",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "doneForToday": "Done for today",
+  "@doneForToday": {
+    "description": "Confirmation after finishing today's reading"
+  },
+  "explainThisPart": "Explain this part",
+  "@explainThisPart": {
+    "description": "Placeholder action for the future AI explanation feature; hidden in v0"
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Title of the settings screen"
+  },
+  "appLanguage": "App language",
+  "@appLanguage": {
+    "description": "Setting that controls the UI language"
+  },
+  "languageSystem": "System",
+  "@languageSystem": {
+    "description": "Use the device language"
+  },
+  "languageEnglish": "English",
+  "@languageEnglish": {
+    "description": "English language name"
+  },
+  "languageArabic": "Arabic",
+  "@languageArabic": {
+    "description": "Arabic language name"
+  },
+  "readerSettings": "Reader settings",
+  "@readerSettings": {
+    "description": "Section title for reading preferences"
+  },
+  "fontSize": "Font size",
+  "@fontSize": {
+    "description": "Reading text size label"
+  },
+  "lineHeight": "Line spacing",
+  "@lineHeight": {
+    "description": "Reading line height label"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Reader color theme label"
+  },
+  "themeLight": "Light",
+  "@themeLight": {
+    "description": "Light reading theme"
+  },
+  "themeSepia": "Sepia",
+  "@themeSepia": {
+    "description": "Sepia reading theme"
+  },
+  "themeDark": "Dark",
+  "@themeDark": {
+    "description": "Dark reading theme"
+  },
+  "arabicDigits": "Arabic digits",
+  "@arabicDigits": {
+    "description": "Toggle between Western and Arabic-Indic numerals"
+  },
+  "readerPreviewText": "The quiet morning light spread slowly across the page, and the day began with a few calm lines.",
+  "@readerPreviewText": {
+    "description": "Sample paragraph that previews the reading typography in settings"
+  }
+}
