@@ -18,5 +18,20 @@
   "themeSepia": "ورقي",
   "themeDark": "داكن",
   "arabicDigits": "الأرقام العربية",
-  "readerPreviewText": "ضوء الصباح الهادئ ينتشر بهدوء على الصفحة، ويبدأ اليوم ببضعة أسطر مطمئنة."
+  "readerPreviewText": "ضوء الصباح الهادئ ينتشر بهدوء على الصفحة، ويبدأ اليوم ببضعة أسطر مطمئنة.",
+  "notificationsSection": "الإشعارات",
+  "notificationDailyReminder": "التذكير اليومي",
+  "notificationSubtitleOn": "تذكير لطيف واحد يوميًا، عندما تكون هناك قراءة بانتظارك.",
+  "notificationSubtitleOff": "متوقف. فعّله لتذكير لطيف واحد كل يوم.",
+  "notificationPermissionTitle": "تنبيه يومي لطيف",
+  "notificationPermissionBody": "يستطيع لوما إرسال تذكير هادئ واحد عندما تكون قراءتك بانتظارك. بلا سلاسل إنجاز ولا ضغط. يمكنك إيقافه من الإعدادات في أي وقت.",
+  "notificationPermissionEnable": "تفعيل التذكيرات",
+  "notificationPermissionNotNow": "ليس الآن",
+  "notificationPermissionDenied": "الإشعارات متوقفة. يمكنك السماح بها من إعدادات جهازك.",
+  "notificationPermissionGranted": "التذكيرات مفعّلة.",
+  "notificationOpenSettings": "فتح الإعدادات",
+  "reminderNotificationTitle": "لحظة هادئة للقراءة",
+  "reminderNotificationBody": "قراءتك التالية جاهزة متى ما كنت مستعدًا.",
+  "todayTitle": "اليوم",
+  "todayPlaceholder": "ستظهر قراءة اليوم هنا."
 }

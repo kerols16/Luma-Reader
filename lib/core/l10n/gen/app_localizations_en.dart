@@ -76,4 +76,54 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get readerPreviewText =>
       'The quiet morning light spread slowly across the page, and the day began with a few calm lines.';
+
+  @override
+  String get notificationsSection => 'Notifications';
+
+  @override
+  String get notificationDailyReminder => 'Daily reminder';
+
+  @override
+  String get notificationSubtitleOn =>
+      'One gentle reminder a day, when a reading is waiting.';
+
+  @override
+  String get notificationSubtitleOff =>
+      'Off. Turn on one gentle reminder a day.';
+
+  @override
+  String get notificationPermissionTitle => 'A gentle daily nudge';
+
+  @override
+  String get notificationPermissionBody =>
+      'Luma can send one quiet reminder when a reading is waiting. No streaks, no pressure. You can turn it off in Settings anytime.';
+
+  @override
+  String get notificationPermissionEnable => 'Turn on reminders';
+
+  @override
+  String get notificationPermissionNotNow => 'Not now';
+
+  @override
+  String get notificationPermissionDenied =>
+      'Notifications are off. You can allow them in your device settings.';
+
+  @override
+  String get notificationPermissionGranted => 'Reminders are on.';
+
+  @override
+  String get notificationOpenSettings => 'Open settings';
+
+  @override
+  String get reminderNotificationTitle => 'A quiet moment for reading';
+
+  @override
+  String get reminderNotificationBody =>
+      'Your next reading is ready whenever you are.';
+
+  @override
+  String get todayTitle => 'Today';
+
+  @override
+  String get todayPlaceholder => 'Your daily reading will appear here.';
 }

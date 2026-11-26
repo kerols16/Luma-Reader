@@ -91,5 +91,65 @@
   "readerPreviewText": "The quiet morning light spread slowly across the page, and the day began with a few calm lines.",
   "@readerPreviewText": {
     "description": "Sample paragraph that previews the reading typography in settings"
+  },
+  "notificationsSection": "Notifications",
+  "@notificationsSection": {
+    "description": "Section title for notification preferences"
+  },
+  "notificationDailyReminder": "Daily reminder",
+  "@notificationDailyReminder": {
+    "description": "Label for the daily reading reminder switch"
+  },
+  "notificationSubtitleOn": "One gentle reminder a day, when a reading is waiting.",
+  "@notificationSubtitleOn": {
+    "description": "Reminder switch subtitle when reminders are enabled"
+  },
+  "notificationSubtitleOff": "Off. Turn on one gentle reminder a day.",
+  "@notificationSubtitleOff": {
+    "description": "Reminder switch subtitle when reminders are disabled"
+  },
+  "notificationPermissionTitle": "A gentle daily nudge",
+  "@notificationPermissionTitle": {
+    "description": "Title of the friendly screen shown before the system permission prompt"
+  },
+  "notificationPermissionBody": "Luma can send one quiet reminder when a reading is waiting. No streaks, no pressure. You can turn it off in Settings anytime.",
+  "@notificationPermissionBody": {
+    "description": "Explanation shown before asking for notification permission"
+  },
+  "notificationPermissionEnable": "Turn on reminders",
+  "@notificationPermissionEnable": {
+    "description": "Button that opens the system notification permission prompt"
+  },
+  "notificationPermissionNotNow": "Not now",
+  "@notificationPermissionNotNow": {
+    "description": "Button that dismisses the notification permission screen"
+  },
+  "notificationPermissionDenied": "Notifications are off. You can allow them in your device settings.",
+  "@notificationPermissionDenied": {
+    "description": "Shown when notification permission was not granted"
+  },
+  "notificationPermissionGranted": "Reminders are on.",
+  "@notificationPermissionGranted": {
+    "description": "Confirmation after enabling reminders"
+  },
+  "notificationOpenSettings": "Open settings",
+  "@notificationOpenSettings": {
+    "description": "Button that opens the device notification settings"
+  },
+  "reminderNotificationTitle": "A quiet moment for reading",
+  "@reminderNotificationTitle": {
+    "description": "Title of the daily local reading reminder"
+  },
+  "reminderNotificationBody": "Your next reading is ready whenever you are.",
+  "@reminderNotificationBody": {
+    "description": "Body of the daily local reading reminder"
+  },
+  "todayTitle": "Today",
+  "@todayTitle": {
+    "description": "Title of the Today screen"
+  },
+  "todayPlaceholder": "Your daily reading will appear here.",
+  "@todayPlaceholder": {
+    "description": "Placeholder on the Today screen until reading units are wired up"
   }
 }

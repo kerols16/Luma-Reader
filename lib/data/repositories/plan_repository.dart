@@ -94,6 +94,25 @@ class PlanRepository {
     return List.unmodifiable(rows.map((row) => row.toDomain()));
   }
 
+  /// Pending reading days between two inclusive dates, across all plans.
+  ///
+  /// Used to rebuild the rolling notification window on app open.
+  Future<List<PlanDay>> findPendingDaysBetween(
+    DateTime startInclusive,
+    DateTime endInclusive,
+  ) async {
+    final query = _db.select(_db.planDays)
+      ..where(
+        (table) =>
+            table.status.equalsValue(PlanDayStatus.pending) &
+            table.date.isBiggerOrEqualValue(startInclusive) &
+            table.date.isSmallerOrEqualValue(endInclusive),
+      )
+      ..orderBy([(table) => OrderingTerm.asc(table.date)]);
+    final rows = await query.get();
+    return List.unmodifiable(rows.map((row) => row.toDomain()));
+  }
+
   Stream<List<PlanDay>> watchDays(int planId) {
     final query = _db.select(_db.planDays)
       ..where((table) => table.planId.equals(planId))

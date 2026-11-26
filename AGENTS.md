@@ -31,7 +31,7 @@ independent of book language. Look and feel is the top priority. v0 has no AI.
 lib/
   core/     theme/, l10n/, router/, utils/
   data/     db/, pdf/, files/
-  domain/   entities/, planning/, segmentation/
+  domain/   entities/, planning/, segmentation/, notifications/
   features/ library/, create_plan/, plan_review/, today/, progress/, settings/
   services/ notifications/, llm/
 ```

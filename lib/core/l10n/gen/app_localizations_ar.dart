@@ -79,4 +79,53 @@ class AppLocalizationsAr extends AppLocalizations {
   @override
   String get readerPreviewText =>
       'ضوء الصباح الهادئ ينتشر بهدوء على الصفحة، ويبدأ اليوم ببضعة أسطر مطمئنة.';
+
+  @override
+  String get notificationsSection => 'الإشعارات';
+
+  @override
+  String get notificationDailyReminder => 'التذكير اليومي';
+
+  @override
+  String get notificationSubtitleOn =>
+      'تذكير لطيف واحد يوميًا، عندما تكون هناك قراءة بانتظارك.';
+
+  @override
+  String get notificationSubtitleOff => 'متوقف. فعّله لتذكير لطيف واحد كل يوم.';
+
+  @override
+  String get notificationPermissionTitle => 'تنبيه يومي لطيف';
+
+  @override
+  String get notificationPermissionBody =>
+      'يستطيع لوما إرسال تذكير هادئ واحد عندما تكون قراءتك بانتظارك. بلا سلاسل إنجاز ولا ضغط. يمكنك إيقافه من الإعدادات في أي وقت.';
+
+  @override
+  String get notificationPermissionEnable => 'تفعيل التذكيرات';
+
+  @override
+  String get notificationPermissionNotNow => 'ليس الآن';
+
+  @override
+  String get notificationPermissionDenied =>
+      'الإشعارات متوقفة. يمكنك السماح بها من إعدادات جهازك.';
+
+  @override
+  String get notificationPermissionGranted => 'التذكيرات مفعّلة.';
+
+  @override
+  String get notificationOpenSettings => 'فتح الإعدادات';
+
+  @override
+  String get reminderNotificationTitle => 'لحظة هادئة للقراءة';
+
+  @override
+  String get reminderNotificationBody =>
+      'قراءتك التالية جاهزة متى ما كنت مستعدًا.';
+
+  @override
+  String get todayTitle => 'اليوم';
+
+  @override
+  String get todayPlaceholder => 'ستظهر قراءة اليوم هنا.';
 }

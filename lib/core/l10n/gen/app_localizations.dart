@@ -211,6 +211,96 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'The quiet morning light spread slowly across the page, and the day began with a few calm lines.'**
   String get readerPreviewText;
+
+  /// Section title for notification preferences
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get notificationsSection;
+
+  /// Label for the daily reading reminder switch
+  ///
+  /// In en, this message translates to:
+  /// **'Daily reminder'**
+  String get notificationDailyReminder;
+
+  /// Reminder switch subtitle when reminders are enabled
+  ///
+  /// In en, this message translates to:
+  /// **'One gentle reminder a day, when a reading is waiting.'**
+  String get notificationSubtitleOn;
+
+  /// Reminder switch subtitle when reminders are disabled
+  ///
+  /// In en, this message translates to:
+  /// **'Off. Turn on one gentle reminder a day.'**
+  String get notificationSubtitleOff;
+
+  /// Title of the friendly screen shown before the system permission prompt
+  ///
+  /// In en, this message translates to:
+  /// **'A gentle daily nudge'**
+  String get notificationPermissionTitle;
+
+  /// Explanation shown before asking for notification permission
+  ///
+  /// In en, this message translates to:
+  /// **'Luma can send one quiet reminder when a reading is waiting. No streaks, no pressure. You can turn it off in Settings anytime.'**
+  String get notificationPermissionBody;
+
+  /// Button that opens the system notification permission prompt
+  ///
+  /// In en, this message translates to:
+  /// **'Turn on reminders'**
+  String get notificationPermissionEnable;
+
+  /// Button that dismisses the notification permission screen
+  ///
+  /// In en, this message translates to:
+  /// **'Not now'**
+  String get notificationPermissionNotNow;
+
+  /// Shown when notification permission was not granted
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications are off. You can allow them in your device settings.'**
+  String get notificationPermissionDenied;
+
+  /// Confirmation after enabling reminders
+  ///
+  /// In en, this message translates to:
+  /// **'Reminders are on.'**
+  String get notificationPermissionGranted;
+
+  /// Button that opens the device notification settings
+  ///
+  /// In en, this message translates to:
+  /// **'Open settings'**
+  String get notificationOpenSettings;
+
+  /// Title of the daily local reading reminder
+  ///
+  /// In en, this message translates to:
+  /// **'A quiet moment for reading'**
+  String get reminderNotificationTitle;
+
+  /// Body of the daily local reading reminder
+  ///
+  /// In en, this message translates to:
+  /// **'Your next reading is ready whenever you are.'**
+  String get reminderNotificationBody;
+
+  /// Title of the Today screen
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get todayTitle;
+
+  /// Placeholder on the Today screen until reading units are wired up
+  ///
+  /// In en, this message translates to:
+  /// **'Your daily reading will appear here.'**
+  String get todayPlaceholder;
 }
 
 class _AppLocalizationsDelegate
